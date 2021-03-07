@@ -1,0 +1,14 @@
+{
+    "app": "App Lobaton",
+    "tables": [
+        {
+            "name":"properties",
+            "rows":[
+                {
+                    "name":"",
+                    "is_active":"true"
+                }
+            ]
+        }
+    ]
+}

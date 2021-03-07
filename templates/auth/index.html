@@ -1,0 +1,18 @@
+{%extends 'layouts/base.html'%}
+{%block content %}
+    <div class="container mt-3 ">
+        <button class="btn mb-3 btn-primary btn-lg btn-block" id="btn-send">INICIAR SERVIDOR</button>
+        <div id="show-message" class="mt-3 d-none" >
+            <div id="message-success" class="text-center text-success">
+                <h3>Maquina iniciada correctamente</h3>
+            </div>
+            <div id="message-error" class="text-center text-danger">
+                <h3>Opss! Error al iniciar la maquina</h3>
+            </div>
+        </div>
+        {% include 'auth/addRegister.html' %}
+        <span id="time-run"></span>
+
+        {% include 'auth/listRegisters.html' %}
+    </div>
+{%endblock %}
