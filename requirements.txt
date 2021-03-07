@@ -2,3 +2,4 @@ pandas
 selenium
 flask
 configparser
+flsk_cors
