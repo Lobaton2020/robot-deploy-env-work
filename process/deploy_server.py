@@ -23,7 +23,7 @@ def run_process_server(config_data):
         with open("{}/{}".format(folder_logs,filename_file,date),"w+") as file:
             if errs:
                 print("Error in {}: {}".format(filename_file,str(errs)))
-            file.write(str(outs))
+            file.write(str(outs.decode("ascii")))
             file.close()
         print("Finish: {}".format(filename_log))
     except Exception as err:

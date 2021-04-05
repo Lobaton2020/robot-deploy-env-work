@@ -1,0 +1,37 @@
+{%extends 'layouts/base.html'%}
+{% block content %}
+<div class="container mt-3 ">
+    <button class="btn mb-3 btn-primary btn-lg btn-block" id="btn-send">INICIAR SERVIDOR</button>
+    <div id="show-message" class="mt-3 d-none" >
+        <div id="message-success" class="text-center text-success">
+            <h3>Maquina iniciada correctamente</h3>
+        </div>
+        <div id="message-error" class="text-center text-danger">
+            <h3>Opss! Error al iniciar la maquina</h3>
+        </div>
+    </div>
+    {% include 'auth/addRegister.html' %}
+    <span id="time-run"></span>
+    </div>
+{% for item in data %}
+<div class="container">
+
+    <div class="card mt-1  ">
+        <div class="card-body p-n4" >
+        <a href="{{ url_for('run_service',id=item['path_service']) }}">{{ item["path_service"] }}</a>
+        </div>
+    </div>
+
+</div>
+</div>
+{%endfor%}
+
+{% if not data %}
+<div class="card mt-2 ">
+    <div class="card-body">
+        <p class="text-center">No hay Logs</p>
+    </div>
+</div>
+{% endif %}
+
+{% endblock %}

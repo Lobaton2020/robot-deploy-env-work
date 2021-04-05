@@ -3,6 +3,16 @@
     Añadir propiedades
   </button>
 
+  <a type="button" class="btn btn-info" href="{{ url_for('log_services') }}">
+    Ver Logs
+  </a>
+  <a type="button" class="btn btn-success" href="{{ url_for('hello_world') }}">
+    Ver Properties
+  </a>
+  <a type="button" class="btn btn-secondary" href="{{ url_for('manager_services') }}">
+    Ver Servicios
+  </a>
+
   <!-- Modal -->
   <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">

@@ -1,0 +1,50 @@
+[
+    {
+        "path_service": "D:/repos_soyyo/soyyo_back_document_validation/00.ts_document_validate",
+        "folder_logs": "D:/soyyo/python-automatic/logs_system/"
+    },
+    {
+        "path_service": "D:/repos_soyyo/soyyo_back_enrollment/00.ts_enrollment",
+        "folder_logs": "D:/soyyo/python-automatic/logs_system/"
+    },
+    {
+        "path_service": "D:/repos_soyyo/soyyo_back_fraud_prevention/00.ts_fraud_prevention",
+        "folder_logs": "D:/soyyo/python-automatic/logs_system/"
+    },
+    {
+        "path_service": "D:/repos_soyyo/soyyo_back_notifications/03.us_notification",
+        "folder_logs": "D:/soyyo/python-automatic/logs_system/"
+    },
+    {
+        "path_service": "D:/repos_soyyo/soyyo_back_parameters/03.es_parameter",
+        "folder_logs": "D:/soyyo/python-automatic/logs_system/"
+    },
+    {
+        "path_service": "D:/repos_soyyo/soyyo_back_traceability/03.es_traceability",
+        "folder_logs": "D:/soyyo/python-automatic/logs_system/"
+    },
+    {
+        "path_service": "D:/repos_soyyo/soyyo_back_transactions/01.ts_transaction",
+        "folder_logs": "D:/soyyo/python-automatic/logs_system/"
+    },
+    {
+        "path_service": "D:/repos_soyyo/soyyo_back_validator/01.ts_validator",
+        "folder_logs": "D:/soyyo/python-automatic/logs_system/"
+    },
+    {
+        "path_service": "D:/repos_soyyo/soyyo_back_common/00.es_user",
+        "folder_logs": "D:/soyyo/python-automatic/logs_system/"
+    },
+    {
+        "path_service": "D:/repos_soyyo/soyyo_back_common/01.es_entity",
+        "folder_logs": "D:/soyyo/python-automatic/logs_system/"
+    },
+    {
+        "path_service": "D:/repos_soyyo/soyyo_back_common/03.ms_get_frequently_asked_questions",
+        "folder_logs": "D:/soyyo/python-automatic/logs_system/"
+    },
+    {
+        "path_service": "D:/repos_soyyo/soyyo_back_common/03.ms_get_terms_of_use",
+        "folder_logs": "D:/soyyo/python-automatic/logs_system/"
+    }
+]
